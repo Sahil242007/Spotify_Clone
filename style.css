@@ -1,0 +1,231 @@
+*{
+   font-family: "Montserrat", sans-serif; 
+   margin: 0;
+   background-color: black;
+   color: white;
+   overflow: hidden;
+}
+
+.main{
+   display: flex;
+   height: 100vh;
+   padding: 0.5rem;
+}
+
+.sidebar{
+  background-color: black;
+   width: 340px;
+   border-radius: 1rem;
+   margin-right: 0.5rem;
+}
+
+.mainbar{
+   background-color: #121212;
+   flex: 1;
+   overflow: auto;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.musicbar{
+   width: 100%;
+   height: 72px;
+   position: fixed;
+   background-color: black;
+   bottom: 0px;
+}
+
+.navbar{
+   background-color: #121212;
+   display: flex;
+   flex-direction: column;
+   border-radius: 1rem;
+   justify-content: center;
+   height: 100px;
+   padding: 0.5vh 0.75vh;
+   
+}
+
+a{
+   color: white;
+   text-decoration:none;
+}
+
+.navoption{
+   background-color: #121212;
+   line-height: 2.5rem;
+   opacity: 0.7;
+}
+
+.navoption:hover {
+   opacity: 1;
+}
+
+.navoption a{
+   font-size: 1rem;
+}
+
+.navoption i{
+   font-size: 1.25rem;
+   margin-left: 16px;
+   margin-right: 5px;
+}
+
+.library{
+   margin-top: 0.5rem;
+   background-color: #121212;
+   border-radius: 1rem;
+   height: 100%;
+   padding:0.5vh 0.75vh; ;
+}
+
+.option{
+   background-color: #121212;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.libraryption img{
+   height: 1.25rem;
+   width: 1.25rem;
+}
+
+.icons{
+   display: flex;
+   font-size: 1.25rem;
+}
+
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+.boxes{
+   background-color: #121212;
+}
+
+.box{
+   background-color: #232323;
+   height: 8rem;
+   border-radius: 0.75rem;
+   margin: 0.75rem 0 1.75rem 0;
+   padding: 0.75rem 1rem;
+}
+
+.para1{
+   font-size: 1rem;
+   background-color: #232323;
+   font-weight: 700;
+   margin-top: 6px;
+}
+
+.para2{
+   background-color: #232323;
+   opacity: 0.8;
+   margin-top: 14px;
+   font-size: 13px;
+}
+
+.badge{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.blackbadge{
+   background-color: black;
+   color: white;
+}
+
+.stickynavbar{
+   background-color: #121212;
+   position: sticky;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 1rem;
+}
+
+.stickynavicons{
+   background-color: #121212;
+}
+
+.stickynavicons img{
+   background-color: #121212;
+}
+
+.stickynavoption{
+   background-color: #121212;
+}
+
+.stickynavoption i{
+   background-color: #121212;
+}  
+
+@media(max-width:1000px){
+   .hide{
+      display: none;
+   }
+}
+
+.cards{
+   background-color: #121212;
+}
+
+.card{
+   background-color:#232323;
+   width: 150px;
+   border-radius: 1rem;
+   padding: 1rem;
+   
+}
+
+.cardscontainer{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #121212;
+   padding:1rem 0 1rem 0;
+   gap: 2rem;
+}
+
+.cardimg{
+   width: 100%;
+   border-radius: 1rem;
+}
+
+.cardtitle{
+   font-weight: 700;
+}
+
+.cardinfo{
+   margin-top: 5px;
+   font-weight: 200;
+   font-size: 0.75rem;
+}
+
+.musicbar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.playsection img{
+   height: 1.5rem;
+   width: 1.5rem;
+   margin: 0.75rem;
+   cursor: pointer;
+}
+
